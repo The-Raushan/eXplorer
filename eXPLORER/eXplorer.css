@@ -1,0 +1,475 @@
+ /* eXPLORER - Design and Styling */
+  
+  /* Developed By : Raushan Kumar 
+  Starting Date : 2026-march-07
+  Last updated : 2026-march-27
+  version : 1.0.0
+  Description : This CSS file is used to style the eXPLORER website. */
+
+
+  /* Normal CSS Reset */
+    * { 
+       box-sizing: border-box;
+       font-family: Arial Narrow Bold ,Helvetica, Arial , sans-serif , 'segoe ui' , system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif , 'Apple Color Emoji', Impact, Haettenschweiler, '', sans-serif ;
+    }
+/* Header Styling */
+header { 
+ color: rgb(255, 0, 0);
+ background-color: #2f2f2f;
+ padding: 25px;
+ text-align: left; 
+ display :flex;  
+
+ 
+}
+
+header h1 {   
+   
+ font-size: 25px;
+ height : 100px;
+ width : 500px;
+ padding: 36px;
+ color: rgb(255, 0, 0);
+ margin: 0;
+ stroke: black;
+ stroke-width: 100px;
+
+                      
+}
+
+              
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    height: 10px;
+    /* border-image: url(flag.png) ; */
+                  
+} 
+
+nav a { 
+    text-decoration: none ;
+    color: rgb(135, 135, 135);
+    /* margin:left 50px; */
+    font-weight : bold;
+    font-size: 15px;
+}
+          
+nav {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ gap: 10px;
+ /* overflow-x :auto; */
+ text-wrap: nowrap;
+ /* background: rgba(0,0,0,0.6); */
+ backdrop-filter: blur(10px);
+
+}
+nav :hover{
+    color: rgb(255, 255, 255);
+}
+
+body { 
+ background-color: #000000;
+ overflow: auto;
+ min-height: 100vh;
+ 
+ 
+}
+
+.mrhero {
+                  
+ color: #989898;
+    font-size: 25px;
+    margin-top: 25px;
+   text-align: center;
+    /*background-image: url("eXPLORER.jpg"); */
+                
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10px;
+    border-radius: 100px;
+    font-style:inherit;
+   font-display: block;
+    font-variant: normal;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+
+/* .mrhero img{
+ width: 300px;
+ height: 200px; 
+ border-radius: 2500px;
+    margin-top: 10px;
+    padding: 1%;
+} */
+                  
+.mrhero  p { 
+    font-size: 50px;
+    margin-top: 0px;
+    color: #f79502;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline; 
+    text-shadow: rgb(255, 136, 0);
+    text-justify: auto;
+                             
+}
+hr{
+    margin-top: 400px;
+}
+
+.btn {
+    color : rgb(255, 255, 255);
+    background-color : rgb(0, 55, 255);
+    padding : 10px 20px ;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin: auto;
+    display: block;
+    width: 200px;
+    background:linear-gradient(90deg,#ff0000,#363434);
+                    
+                    
+}.btn:hover {
+    background-color: #171614;
+}
+
+.abouts { 
+    color:aliceblue;
+    text-align:center;
+    margin-top:250px;
+    
+                    
+}
+.abouts h2{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: system-ui,Tahoma, Verdana, sans-serif;
+    color: #9d9d9d;
+}
+.abouts p{
+    font: bold;
+    justify-content: space-between;
+}
+
+.abouts button ::placeholder{
+ color : rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+   
+                    
+} 
+
+
+.abouts button:hover{
+    background-color: #ff0000;
+}
+
+
+/* 2nd Header Styling */
+.header2 {
+    color: white;
+    text-align: center;
+    
+    
+
+}
+.header2 nav {
+    position:fixed;
+    background-color: rgb(36, 36, 36);
+    padding:  20px , 20px;
+    margin-top: 30px;
+    text-align: center;
+    display :inline-flex;
+    justify-content: center;
+    gap: 16px;
+    height: 40px;
+    width: 470px;
+    border-radius: 50px;
+    text-decoration: solid;
+    align-items: center;
+    z-index: 10000;
+    top: 86%;
+    left: 50%;
+    transform: translateX(-50%);
+ 
+  
+
+    
+}
+nav.bottom{
+position: fixed;
+bottom: 0;
+left: 0;
+z-index: 1000;
+}
+body{
+padding-top: 70px; /* navbar height ke equal */
+}
+/* .header2 nav:hover {
+    background-color: #ff0000;
+    color:white;
+} */
+
+
+
+/* Sign In Form Styling  */
+
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 450px; */
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 250px;
+    align-items: center;
+      
+   backdrop-filter: blur(10px);
+   border-radius:20px;
+   
+
+}
+.login-header h3 {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px 50px 20px 50px;
+    font-size: 40px;
+    font-weight: 700px;
+
+    
+   
+}
+.input-box .input-field {
+    color : rgb(255, 255, 255);
+    width: 60%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: .3s;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.05) ;
+    text-align: center;
+    margin: 15px auto;
+    display: block;
+    justify-content:center;
+    background-color:#161616
+
+}
+
+::placeholder {
+    font-weight: 500px;
+    color: #747474;
+    transition: 0.3s;
+}
+.input-field:focus{
+    width: 80%;
+}
+.input-field:focus::placeholder{
+opacity:0.6;
+font-size: 15px;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#cheak{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+.logins {
+    display: flex;
+    color:#ffffff;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logins a{
+    color:#555;
+}
+.input-submit{
+    position: relative;
+    margin-bottom: 20px;
+}
+.submit-btn{
+    width: 70%;
+    height: 60px;
+    background:linear-gradient(90deg,#0f00ff,#3a7bff);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    margin: auto;
+    display: block;
+   
+    
+}
+/* .submit-btn:focus{
+    width: 90%;
+    transition: .3s;
+} */
+.input-submit button{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color:white; 
+    
+    -webkit-transform: translate(-50% , 50%);
+    -ms-transform: translate(-50% , 50%);
+    transform: translate(-50% , 50%);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+.submit-btn:hover {
+    background-color: rgb(151, 142, 142);
+    /* transform:scale(1.03 ); */
+    box-shadow:0px 0px 15px rgba(0,0,255,0.5);
+}
+.create-new-account-link {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 180px;
+  height: 150px;
+  
+  
+}
+.create-new-account-link a{
+    color : white;
+    /* font-weight: 500; */
+    font-weight: 200px;
+    font-size: 18px;
+
+}
+
+/* Main Content Styling  */
+
+
+.container{
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.scroll-container{
+  display: flex;
+  width: max-content;
+  animation: scroll 10s linear infinite;
+  margin-top: 100px;
+  
+}
+.scroll-container:hover{
+  animation-play-state: paused;
+}
+
+.card{
+  width: 250px;
+  height: 350px;
+  background: rgb(97, 97, 97);
+  margin: 0 20px 0px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  /* box-shadow: 0 0px 0px rgb(255, 255, 255); */
+  background: linear-gradient(135deg,#000000,#2c2c2c);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  flex-shrink: 0;   /* IMPORTANT */
+
+}
+
+.card:hover{
+  transform:translate(0% , -10%);
+  box-shadow: 0 10px 20px rgb(255, 255, 255);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.6);
+}
+button{
+  background: linear-gradient(90deg, red, orange);
+  /* box-shadow: 0 0 10px rgba(255,0,0,0.5); */
+}
+
+/* card Content Styling
+Thoda better effect dalne ka try and styling  */
+
+
+/* Image */
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    display: block;
+}
+
+/* Overlay text */
+.card-info{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  color: white;
+}
+.card:hover img{
+transform: scale(1.1);
+}
+
+
+@keyframes scroll {
+  0%{
+    transform: translateX(0);
+  }
+
+  100%{
+    transform: translateX(-50%);
+  }
+}
+
+/*   footer   */
+
+footer{
+    color: #555;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.nav-bar{
+ height: 50px;
+ width: 280px;
+}
+.logo{
+    background-image: url(log.png);
+    height: 120px;
+    width:100%;
+    margin-top: -38px;
+}
